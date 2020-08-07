@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Student Grade Calculator</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <link rel="stylesheet" type="text/css" href="gradestyle.css">
+   <script type="text/javascript" src="student.js"></script>
+  </head>
+  <body>
+  <h1>Student Score Input</h1>
+  <form id="form1" action="">
+   <table BORDER="0">
+          <tr>
+             <td>Student Number:</td>
+             <td>Last Name:</td>
+             <td>First Name:</td>
+          </tr>
+
+          <tr>
+             <td><input type="text" id="StudentNo" size="20"></td>
+             <td><input type="text" id="LastName" size="20"></td>
+             <td><input type="text" id="FirstName" size="20"></td>
+          </tr>
+    </table>
+    <br>
+    <table border="0">
+        <tr>
+            <td>Q1:</td>
+            <td>Q2:</td>
+            <td>Q3:</td>
+            <td>Q4:</td>
+            <td>Q5:</td>
+            <td>Mk-Up:</td>
+
+        </tr>
+         <tr>
+           <td><input type="text" id="Q1" size="8"></td>
+           <td><input type="text" id="Q2" size="8"></td>
+           <td><input type="text" id="Q3" size="8"></td>
+           <td><input type="text" id="Q4" size="8"></td>
+           <td><input type="text" id="Q5" size="8"></td>
+           <td><input type="text" id="QM" size="8"></td>
+        </tr>
+    </table>
+    <br>
+    <table border="0">
+        <tr>
+            <td>Mid-Term:</td>
+            <td>Problems:</td>
+            <td>Final:</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="MidTerm" size="8"></td>
+            <td><input type="text" id="Problems" size="8"></td>
+            <td><input type="text" id="Final" size="8"></td>
+        </tr>
+    </table><br>
+    <p><input type="button" id="btnCalc" value="Calculation">
+    <input type="button" id="btnClr" value="Clear"><br><br>
+
+   <div id="results">student grade line</div>
+ </form>
+ </body>
+</html>
